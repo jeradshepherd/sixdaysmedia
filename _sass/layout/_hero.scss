@@ -1,0 +1,28 @@
+.hero--home {
+	&__slide-inner {
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	h2,
+	p {
+		color: $color-white;
+		font-weight: $base-font-weight;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 40px;
+		padding-top: 13%; 
+	}
+
+	p {
+		font-size: 24px;
+	}
+
+	.custom-web-design {
+		background: url('/assets/images/heroes/custom-web-design--bg.jpg') no-repeat;
+		@include responsive-bg-image(1400, 580);
+	}
+}

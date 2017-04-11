@@ -23,12 +23,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sixdaysmedia
 github_username:  jeradshepherd
-google_analytics: UA-89988268-1
+# google_analytics: UA-89988268-1
 
-{% if jekyll.environment == 'production' %}
-sass:
-    style: compressed
-{% endif %}
+# {% if jekyll.environment == 'production' %}
+# sass:
+#     style: compressed
+# {% endif %}
 
 # Build settings
 markdown: kramdown
